@@ -1,0 +1,68 @@
+[2018-07-30 13:04:02] NULL.INFO: >>>>>>>>
+POST /wxa/msg_sec_check?access_token=12_gOvvkgyGExWSyImovFuXXDi5AoxLj_YlmyDbtFcPU5M7mtiSHWyRunOV0XLCaoW_c9_trwaDS6qjGXsi_e4TP5WR8QlFeueh2IgdcmKW2GQk_oqudPWSrw0fSUunZLjkGgZ_26AT6mdLIXKlRUYdAAAZCG HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 62
+User-Agent: GuzzleHttp/6.3.3 curl/7.59.0 PHP/7.2.5
+Content-Type: application/json
+
+{"content":"叫阿三哥哈是个大帅哥大师的骨灰级"}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; charset=UTF-8
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-07-30 13:04:35] NULL.INFO: >>>>>>>>
+POST /wxa/msg_sec_check?access_token=12_gOvvkgyGExWSyImovFuXXDi5AoxLj_YlmyDbtFcPU5M7mtiSHWyRunOV0XLCaoW_c9_trwaDS6qjGXsi_e4TP5WR8QlFeueh2IgdcmKW2GQk_oqudPWSrw0fSUunZLjkGgZ_26AT6mdLIXKlRUYdAAAZCG HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 20
+User-Agent: GuzzleHttp/6.3.3 curl/7.59.0 PHP/7.2.5
+Content-Type: application/json
+
+{"content":"小姐"}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; charset=UTF-8
+Content-Length: 27
+
+{"errcode":0,"errmsg":"ok"}
+--------
+NULL  
+[2018-07-30 13:05:04] NULL.INFO: >>>>>>>>
+POST /wxa/msg_sec_check?access_token=12_gOvvkgyGExWSyImovFuXXDi5AoxLj_YlmyDbtFcPU5M7mtiSHWyRunOV0XLCaoW_c9_trwaDS6qjGXsi_e4TP5WR8QlFeueh2IgdcmKW2GQk_oqudPWSrw0fSUunZLjkGgZ_26AT6mdLIXKlRUYdAAAZCG HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 23
+User-Agent: GuzzleHttp/6.3.3 curl/7.59.0 PHP/7.2.5
+Content-Type: application/json
+
+{"content":"胡锦涛"}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; charset=UTF-8
+Content-Length: 65
+
+{"errcode":87014,"errmsg":"risky content hint: [8gdGvA01082358]"}
+--------
+NULL  
+[2018-07-30 13:48:57] NULL.INFO: >>>>>>>>
+POST /wxa/msg_sec_check?access_token=12_gOvvkgyGExWSyImovFuXXDi5AoxLj_YlmyDbtFcPU5M7mtiSHWyRunOV0XLCaoW_c9_trwaDS6qjGXsi_e4TP5WR8QlFeueh2IgdcmKW2GQk_oqudPWSrw0fSUunZLjkGgZ_26AT6mdLIXKlRUYdAAAZCG HTTP/1.1
+Host: api.weixin.qq.com
+Content-Length: 14
+User-Agent: GuzzleHttp/6.3.3 curl/7.59.0 PHP/7.2.5
+Content-Type: application/json
+
+{"content":""}
+<<<<<<<<
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json; charset=UTF-8
+Content-Length: 61
+
+{"errcode":44004,"errmsg":"empty content hint: [GS07411513]"}
+--------
+NULL  

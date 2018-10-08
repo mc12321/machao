@@ -1,0 +1,133 @@
+#graphic_black img,video{
+    width:100%;
+}
+#graphic_black .graphic_black_label{
+    text-align: center;
+    font-weight: bold;
+}
+#graphic_black .detail_add_text{
+    line-height:30px;
+    /*background: #5eb95e;*/
+    background: #5a9adf;
+    height:32px;
+    line-height:32px;
+    border-left:1px solid #fff;
+    border-right:1px solid #fff;
+    text-align: center;
+    color:#fff;
+    margin-top:10px;
+}
+#graphic_black .detail_add_text:hover{
+    /*background: #429842;*/
+    background: #5a9adf;
+}
+#graphic_black .detail_add_image{
+    line-height:30px;
+    /*background: #dd514c;*/
+    background: #5a9adf;
+    height:32px;
+    line-height:32px;
+    border-left:1px solid #fff;
+    border-right:1px solid #fff;
+    text-align: center;
+    color:#fff;
+    margin-top:10px;
+}
+#graphic_black .detail_add_image:hover{
+    /*background: #c62b26;*/
+    background: #5a9adf;
+}
+#graphic_black .detail_add_video{
+    line-height:30px;
+    /*background: #f37b1d;*/
+    background: #5a9adf;
+    height:32px;
+    line-height:32px;
+    border-left:1px solid #fff;
+    border-right:1px solid #fff;
+    text-align: center;
+    color:#fff;
+    margin-top:10px;
+}
+#graphic_black .detail_add_video:hover{
+    /*background: #c85e0b;*/
+    background: #5a9adf;
+}
+#graphic_black .detail_add_button{
+    line-height:30px;
+    /*background: #000;*/
+    background: #5a9adf;
+    height:32px;
+    line-height:32px;
+    border-radius:10px;
+    text-align: center;
+    color:#fff;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.graphic_show{
+    /*width:375px;*/
+    height:500px;
+    overflow-y: scroll;
+    margin:0 auto;
+    border:3px solid #000;
+}
+#graphic_content_detail a div{
+    margin:5px 0;
+    line-height: 25px;
+    text-align: center;
+    font-size: 19px;
+    padding-left:5px;
+    padding-right:5px;
+    /*border: 1px solid #ddd;*/
+}
+#graphic_content_detail .graphic_icon_btn{
+    border:1px solid #E2E2E2;
+    border-radius: 10px;
+}
+/*#graphic_content_detail a div:hover{*/
+    /*background: #ddd;*/
+/*}*/
+/*#graphic_content_detail a div:active{*/
+    /*background: #666;*/
+/*}*/
+.teltphone_header{
+    height:30px;
+    background: #000;
+    /*border-radius: 10px 10px 0 0;*/
+}
+.teltphone_logo{
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    color: #ddd;
+    font-size: 16px;
+}
+.teltphone_footer{
+    height:30px;
+    background: #000;
+    /*border-radius: 0 0 10px 10px;*/
+    padding-top:10px;
+}
+.telephone_button{
+    width:50px;
+    height:10px;
+    margin:0px auto;
+    border: #ddd 2px solid;
+    background: #000;
+    border-radius: 10px;
+}
+.graphic_icon{
+    width:32px;
+    height:32px;
+}
+.textarea{
+    height:110px;
+}
+.progress-bar{
+    background-color:#fff;
+}
+#prefix_add_detail_text{
+    padding-left:1px;
+    padding-right:1px;
+}
