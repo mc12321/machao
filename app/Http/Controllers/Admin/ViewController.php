@@ -24,6 +24,8 @@ class ViewController extends Controller
        $session_val = session('wechat.oauth_user'); // 拿到授权用户资料
 
         Log::info(__METHOD__ . " " . 'session_val:' . json_encode($session_val));
+        dd($session_val[0]);
+        $img = $session_val[0];
         $param = [
             'session_val' => $session_val,
         ];
