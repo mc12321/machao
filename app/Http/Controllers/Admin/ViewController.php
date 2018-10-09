@@ -6,7 +6,7 @@
  * Time: 14:54
  */
 
-namespace App\Http\Controllers\API;
+namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Components\RequestValidator;
@@ -21,9 +21,9 @@ class ViewController extends Controller
     {
 //        $data = $request->all();
 //
-//        $session_val = session('wechat.oauth_user'); // 拿到授权用户资料
+       $session_val = session('wechat.oauth_user'); // 拿到授权用户资料
 
-dd('1');
+
         return view('admin.show.index');
 
     }

@@ -19,6 +19,6 @@ Route::group(['prefix' => '', 'middleware' => ['BeforeRequest']], function () {
 
     Route::any('serve', 'API\WechatController@serve');
 
-    Route::any('index', 'API\ViewController@index');
+
 });
 
