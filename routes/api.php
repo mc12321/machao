@@ -17,6 +17,6 @@ Route::group(['prefix' => ''], function () {
     //测试接口
     Route::get('test', 'API\TestController@test');
 
-
+    Route::any('serve', 'API\WechatController@serve');
 });
 
