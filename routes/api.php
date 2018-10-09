@@ -12,11 +12,13 @@
 */
 
 
-Route::group(['prefix' => ''], function () {
+Route::group(['prefix' => '', 'middleware' => ['BeforeRequest']], function () {
 
     //测试接口
     Route::get('test', 'API\TestController@test');
 
     Route::any('serve', 'API\WechatController@serve');
+
+    Route::any('index', 'API\ViewController@index');
 });
 

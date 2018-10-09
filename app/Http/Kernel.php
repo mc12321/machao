@@ -60,5 +60,7 @@ class Kernel extends HttpKernel
         'BeforeRequest' => \App\Http\Middleware\BeforeRequest::class,
         'user.checkToken' => \App\Http\Middleware\CheckToken::class,
         'admin.checkLogin' => \App\Http\Middleware\CheckAdminLogin::class,//后台登录中间件
-    ];
+        'wechat.oauth' => \Overtrue\LaravelWeChat\Middleware\OAuthAuthenticate::class,  //微信网页授权中间件
+
+];
 }

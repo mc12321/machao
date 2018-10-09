@@ -17,7 +17,6 @@ class BeforeRequest
     public function handle($request, Closure $next)
     {
         Log::info($request->getPathInfo() . "(" . $request->getClientIp() . ")   " . json_encode($request->all()));
-
         return $next($request);
     }
 }
